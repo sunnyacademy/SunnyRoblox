@@ -8,7 +8,7 @@ def generate_html():
     files.sort()
 
     html_content = "<html><head><title>File Index</title></head><body>"
-    html_content += "<h1>Repository Files</h1><ul>"
+    html_content += "<h1>Roblox Module</h1><ul>"
     
     for f in files:
         html_content += f'<li><a href="./{f}">{f}</a></li>'
